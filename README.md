@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @cevictoria13
 - 👀 I’m interested in sign language
-- 🌱 I’m currently learning segment enything
-- 💞️ I’m looking to collaborate on segment enything
+- 🌱 I’m currently learning segment anything
+- 💞️ I’m looking to collaborate on segment anything
 - 📫 How to reach me by email cevictoria@gmail.com
 - 
 
