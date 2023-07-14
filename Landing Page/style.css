@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#título-principal{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+   
+}
+
+.tamaño-título{
+    color: #fff;
+}
+
+
+
+.contenedor-principal{
+    width: 100%;
+    height: auto;
+    background-color: rgb(52, 189, 68);
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.contenedor-principal a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contenedor-principal nav{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contenedor-banner{
+       padding: 50px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+     
+}
+
+
+
+.contenedor-banner button{
+    background: rgb(52, 189, 68);
+    display: block;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 15px 32px;
+}
+
+.contenedor-descripción{
+    background-color: rgb(52, 189, 68);
+    height: auto;
+    width: auto;
+    padding: 30px 0;
+}
+
+#título-descripción{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: #fff;
+  margin: 15px;
+  padding: 40px 0;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#text-descripción{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#fff;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+  flex-wrap: wrap;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.button-banner{
+    background-color: #4c57af;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;    
+    justify-content: center;
+}
+
+.contenedor_cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+}
+
+
+
+.contenedor_cards img{
+    width: 400px;
+    height: 250px;   
+    margin: 10px; 
+}
+
+.imagen-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+    width: min-content;
+}
+ 
+
+.button-card{
+  background-color: #4c57af;
+  border: none;
+  color: white;
+  display: inline-block;
+  padding: 15px 10px;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  width: 40%;
+}
+
+.franja-separadora{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(52, 189, 68);
+}
+
+.franja-separadora h2{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 50px;
+    font-style: italic;
+     padding: 50px 0;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contenedor-servicios{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;  
+    padding: 40px 20px;  
+    
+}
+
+.servicios{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.servicios img{
+    width: 400px;
+    height: 250px;   
+    margin: 10px; 
+}
+
+
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    justify-content: center;
+    width: 100%;
+    color: #fff; 
+    padding: 5px 0;
+}
+form{
+ padding: 10px 15px;
+}
+
+.form{
+  width  : 40%;
+  height : auto;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  position: relative;
+  display  : grid;
+  grid-gap : 20px;
+  grid-template-columns : repeat(2, 1fr);
+  grid-template-rows    : 10em 1em 1em 1em;
+}
+
+.button-form{
+    background-color: #4c57af;
+  border: none;
+  color: white;
+  display: inline-block;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  height: 40px;
+}
+
+
+#Nombre{
+    color: #fff;
+    padding: 8px 0;
+}
+
+#Apellido{
+    color: #fff;
+    padding: 8px 0;
+}
+
+#correo{
+    color: #fff;
+    padding: 8px 0;
+}
+
+#celular{
+    color: #fff;
+   margin: 8px 0;
+}
+
+#mensaje{
+    color: #fff;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.detalles{
+    color: #fff;
+    padding: 0 40px;
+    width: 100%;
+}
+
+summary {
+    font-weight: bold;
+    padding: 0.5em;
+    
+}
+details[open] {
+    padding: 0.5em;
+    
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;    
+}
+
+/*comen*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(52, 189, 68);
+}
