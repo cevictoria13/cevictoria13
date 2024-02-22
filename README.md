@@ -1,8 +1,9 @@
-- 👋 Hi, I’m @cevictoria13
-- 👀 I’m interested in sign language
-- 🌱 I’m currently learning segment anything
-- 💞️ I’m looking to collaborate on segment anything
-- 📫 How to reach me by email cevictoria@gmail.com
+- 👋 Hi, I’m Cecilia Sánchez Valenzuela
+- 🔭 I currently work at Verdesign > design of creative and innovative products and services.
+- 👀 I’m interested in new technologies to offer the best solution to my clients.
+- 🌱 I’m currently learning Nextjs
+- 💞️ I'm looking for help with typescript and django.
+- 📫 How to reach me? by email cevictoria@gmail.com
 - 
 
 <!---
